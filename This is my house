@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>This is my house</title>
+</head>
+<body>{
+  background-color: beige;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+</style>
+<h1> I live in Riga </h1>
+<p>In my house I have:</p>
+<ul>
+  <li>few windows</li>
+  <li>twoo floors</li>
+  <li>big garden for flowers</li>
+</ul>
+<img src=" https://datafile3.arkadia.com/pictures/properties/fullsize/16-6067511-637052715056980200.jpg" alt="attēls nav pieejams">
+<canvas id="myCanvas" width="450" height="100" style="border:1px solid #d3d3d3;">Your browser does not support the HTML canvas tag.</canvas>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillText("I will wait you for cup of tea!", 10, 50);
+</script>
+
+</body>
+</html>
